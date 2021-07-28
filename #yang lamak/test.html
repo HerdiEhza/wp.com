@@ -1,43 +1,34 @@
+
 <html lang="en">
 
 <head>
 
     <meta charset="UTF-8">
-
-    <link rel="apple-touch-icon" type="image/png"
-        href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
-    <meta name="apple-mobile-web-app-title" content="CodePen">
-
-    <link rel="shortcut icon" type="image/x-icon"
-        href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
-
-    <link rel="mask-icon" type=""
-        href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg"
-        color="#111">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
     <title>CodePen - Flexbox and Bootstrap Cover Page ( scroll spy and things )</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
-    <link rel="stylesheet" href="bootsrap.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
-    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="/css/Tailwindstyle.css">
-
+    <link rel="stylesheet" href="./style.css">
+    
     <script>
         window.console = window.console || function (t) {};
     </script>
-
-
-
+    
+    
+    
     <script>
         if (document.location.search.match(/type=embed/gi)) {
             window.parent.postMessage("resize", "*");
         }
     </script>
-
-
+    
 </head>
 
 <body translate="no" data-spy="scroll" data-target="#myScrollspy" class="">
@@ -70,7 +61,7 @@
     </nav>
     <!-- //Close Fixed Nav -->
 
-    <section id="spyberanda" class="bg-base-200 pt-20 md:pt-0" data-theme="emerald">
+    <section id="spyberanda" class="section-one bg-base-200 pt-20 md:pt-0" data-theme="emerald">
         
         <div id="slide" class="carousel slide" data-ride="carousel">
           
@@ -126,7 +117,7 @@
         </div>
     </section>
 
-  	<section id="spypenawaran" data-theme="emerald">
+  	<section id="spypenawaran" class="hero section-two" data-theme="emerald">
   		<div class="w-full flex flex-col hero bg-base-200">
   		<div class="hero min-h-screen bg-indigo-100">
   			<div class="flex-col hero-content lg:flex-row-reverse">
@@ -141,7 +132,7 @@
 		</div>
   	</section>
 
-  	<section id="spymodel" class="hero bg-base-200 body-font" data-theme="emerald">
+  	<section id="spymodel" class=" section-three hero bg-base-200 body-font" data-theme="emerald">
         <div class="md:container bg-base-200 mx-auto">
             <div class="flex flex-col">
                 <div class="text-center flex flex-wrap sm:flex-row flex-col mb-3">
@@ -1060,158 +1051,10 @@
       </section>
 
 
-    <!-- Full Screen Landing Section -->
-    <section class="cover" id="">
-        <div class="jumbotron">
-            <h1 class="animated fadeInDownBig">Bootstrap &amp; Flexbox Cover</h1>
-            <p class="animated fadeInRightBig">This example showing how you can use Flexbox in areas of a Bootstrap
-                Download to enhance your layout!</p>
-            <p class="animated fadeInLeftBig"><em>This is and will always be a working progress so be sure to check back
-                    for updates!</em></p>
-            <p>
-                <a class="btn btn-lg jumbotron-btn animated fadeInUpBig" role="button">Call Out Button »</a>
-            </p>
-        </div>
-    </section>
-    <!-- //Close Full Screen Landing Section -->
-
-
-    <!-- Section One; as seen on many site 3 main option sections for content -->
-    <section class="container-fluid section-one">
-        <div class="row">
-            <div class="col-md-4 section-one-content" id="section-one-left">
-                <h1>What</h1>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet
-                    nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula
-                    sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam
-                    mollis. Ut justo. Suspendisse potenti.
-                </p>
-                <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue.
-                    Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent
-                    elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices
-                    sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus
-                    eu, fermentum et, dapibus sed, urna.
-                </p>
-            </div>
-
-            <div class="col-md-4 section-one-content" id="section-one-middle">
-                <h1>Why</h1>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet
-                    nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula
-                    sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam
-                    mollis. Ut justo. Suspendisse potenti.
-                </p>
-                <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue.
-                    Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent
-                    elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices
-                    sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus
-                    eu, fermentum et, dapibus sed, urna.
-                </p>
-            </div>
-
-            <div class="col-md-4 section-one-content" id="section-one-right">
-                <h1>How</h1>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet
-                    nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula
-                    sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam
-                    mollis. Ut justo. Suspendisse potenti.
-                </p>
-                <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue.
-                    Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent
-                    elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices
-                    sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus
-                    eu, fermentum et, dapibus sed, urna.
-                </p>
-            </div>
-        </div>
-    </section>
-    <!-- //Close Section One -->
-
-
-    <!-- Section Two; a style feature I really like is 2 cols, 1 for text and 1 for a related image -->
-    <section class="container section-two" id="">
-        <div class="row">
-            <div class="col-md-6 to-match">
-                <h2>Designers</h2>
-                <article>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque
-                        aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-                        ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu
-                        nibh. Nullam mollis. Ut justo. Suspendisse potenti.
-                    </p>
-                    <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu
-                        augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus.
-                        Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a
-                        ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede
-                        arcu, dapibus eu, fermentum et, dapibus sed, urna.
-                    </p>
-                    <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet,
-                        lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh
-                        felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam
-                        pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo.
-                        Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.
-                    </p>
-                </article>
-            </div>
-            <div class="col-md-6 css-img-wrapper hidden-xs hidden-sm" style="height: 455px;">
-                <img class="img-responsive img-circle img-designers">
-            </div>
-        </div>
-    </section>
-    <!--//Close Section Two -->
-
-
-    <!--// Section Three; the main reason I like this format is the increase in white space -->
-    <section class="container section-three" id="">
-        <div class="row">
-            <div class="col-md-6 css-img-wrapper hidden-xs hidden-sm" style="height: 455px;">
-                <div class="img-circle img-responsive img-developers"></div>
-            </div>
-            <div class="col-md-6">
-                <h2>Developers</h2>
-                <article>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque
-                        aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-                        ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu
-                        nibh. Nullam mollis. Ut justo. Suspendisse potenti.
-                    </p>
-                    <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu
-                        augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus.
-                        Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a
-                        ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede
-                        arcu, dapibus eu, fermentum et, dapibus sed, urna.
-                    </p>
-                    <p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet,
-                        lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh
-                        felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam
-                        pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo.
-                        Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.
-                    </p>
-                </article>
-            </div>
-        </div>
-    </section>
-    <!--//Close Section Three -->
-
-    <!-- Footer -->
-    <footer>
-
-        <!-- Back to top link -->
-        <a href="#spytop" class="top" style="display: none;"><span class="glyphicon glyphicon-chevron-up"></span></a>
-        <!-- //Close Back to top link -->
-
-        <div class="container">
-            <h2>Footer</h2>
-        </div>
-    </footer>
-    <!-- //Close Footer -->
-
-    <script
-        src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-8216c69d01441f36c0ea791ae2d4469f0f8ff5326f00ae2d00e4bb7d20e24edb.js">
-    </script>
+  
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    
     <script id="rendered-js">
         $(window).resize(function () {
             //update stuff
@@ -1278,6 +1121,9 @@
         });
         //# sourceURL=pen.js
     </script>
+
+
+
 
 
 
